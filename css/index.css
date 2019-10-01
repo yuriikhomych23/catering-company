@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Caveat|Dancing+Script|Indie+Flower|Lobster|Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Caveat|Dancing+Script|Indie+Flower|Lobster|Mansalva|Pattaya&display=swap');
 :root{
     --accent-color:#ff6a00;
     --main-color: grey;
@@ -60,7 +60,7 @@ header .text {
 }
 
 header h1 {
-    
+
 }
 .button {
     display: inline-block;
@@ -98,3 +98,33 @@ header h1 {
         margin: 0.4em auto;
     }
 }
+
+header h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 4rem;
+    color: var(--accent-color);
+    text-align: center;
+
+}
+
+main img{
+    display: block;
+    width: 100%;
+
+}
+
+main p {
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+    color: var(--black);
+    text-align: center;
+}
+
+@media (min-width: 640px;) {
+    .main-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
