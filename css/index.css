@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Dancing+Script|Indie+Flower|Lobster|Mansalva&display=swap');
+:root{
+    --accent-color:#ff6a00;
+    --main-color: grey;
+    --text-color: #fcc200;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+header nav .menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+}
+
+header nav .menu a {
+    font-family: 'Mansalva', cursive;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
+    border: 1px solid transparent;
+    padding: 5px;
+}
+
+header nav .menu a:hover {
+    border: 1px solid var(--accent-color);
+}
+
+header nav .menu {
+    flex: 1;
+}
+
+header .banner {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    color: var(--accent-color);
+    background-image: url(../img/catering_company_YK.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header .text {
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+    color: var(--text-color);
+    text-indent: 40px;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+
+header h1 {
+    
+}
+.button {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    transition: all 0.4s;
+    background-color: transparent;
+}
+
+.button:hover {
+    color: #7d736d;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.card-button {
+    border-color: black;
+    color: black;
+}
+
+.card-button:hover {
+    background-color: black;
+    color: white;
+}
+
+@media all and (max-width:30em) {
+    .button {
+        margin: 0.4em auto;
+    }
+}
