@@ -105,7 +105,7 @@ header h1 {
 }
 
 
-main img{
+div .photo-list{
     display: block;
     width: 100%;
 
@@ -118,11 +118,12 @@ main p {
     text-align: center;
 }
 
-@media (min-width: 640px;) {
-    .main-list {
+
+    .grid-view {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
+
 
 
