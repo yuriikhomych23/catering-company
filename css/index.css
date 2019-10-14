@@ -56,7 +56,7 @@ header .text {
     font-size: 2rem;
     color: var(--text-color);
     text-indent: 40px;
-    padding: auto;
+    padding: 0;
     margin: auto;
     text-align: center;
 }
@@ -74,6 +74,12 @@ header .text {
     text-align: center;
     transition: all 0.4s;
     background-color: transparent;
+}
+
+.myClass {
+    display: flex;
+    width: 45.4%;
+    height: 26px;
 }
 
 .button:hover {
@@ -144,6 +150,11 @@ div.portfolio-view img {
     width: 100%;
     border-radius: 5px;
 }
+
+div.portfolio-view img:hover {
+    width: 500px;
+}
+
 @media (min-width: 640px) {
 .portfolio-view {
     display: grid;
@@ -157,6 +168,7 @@ div.portfolio-view img {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
     }
+}
 
 div.portfolio-view p {
     font-family: 'Caveat', cursive;
@@ -188,8 +200,3 @@ div.contact-view {
     color: var(--accent-color);
     text-align: start;
 }
-
-
-
-
-
