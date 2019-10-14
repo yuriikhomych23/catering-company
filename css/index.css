@@ -135,14 +135,14 @@ div.grid-view img {
 div.grid-view p {
     font-family: 'Caveat', cursive;
     font-size: 3rem;
-    color: var(--black);
+    color: var(--black-color);
     text-align: center;
 }
 
 div.portfolio-view img {
     display: block;
     width: 100%;
-    border-radius: 5px
+    border-radius: 5px;
 }
 @media (min-width: 640px) {
 .portfolio-view {
@@ -164,5 +164,32 @@ div.portfolio-view p {
     color: var(--black);
     text-align: center;
 }
+
+div.about-us-view p {
+     font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+    color: var(--main-color);
+    text-align: center;
+}
+
+div.menu-view input {
+    display: flex;
+    width: 45%;
+    height: 20px;
+    }
+
+div.menu-view label {
+    color: var(--accent-color);
+    }
+
+div.contact-view {
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+    color: var(--accent-color);
+    text-align: start;
+}
+
+
+
 
 
