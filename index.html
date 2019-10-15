@@ -1,242 +1,261 @@
 <!DOCTYPE html>
 <html lang="uk">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>YK</title>
-        <link rel="stylesheet" href="css/index.css">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul class="menu">
-                    <li>
-                        <a href="#home">Home</a>
-                    </li>
-                    <li>
-                        <a href="#offers">Offers</a>
-                    </li>
-                    <li>
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#menu">Make a Menu</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-            <section id="home">
-                <div class="banner">
-                    <h1>Catering Company YK</h1>
-                    <h2>Eat Good, Feel Good</h2>
-                    <button class="button">Замовити консультацію</button>
-                </div>
-                <div class="text">
-                    <p>Наша кейтерингова компанія займається наданням послуг з організації харчування
-               співробітників компаніїі приватних осіб у приміщенні і на виїздному обслуговуванні,
-               а також здійснюємо обслуговування заходів різного призначення та роздрібний продаж
-               готової кулінарної продукції.</p>
-                </div>
-            </section>
-        </header>
-        <main>
-            <section id="offers">
-                <header>
-                    <h1>Наші Пропозиції</h1>
-                </header>
-                    <div class="grid-view">
-                    <div>
-                <hr>
-                <img src="img/corporate_parties.jpg" alt="Corporate Parties">
-                <p>Корпоративні вечірки</p>
-                <br>
-                    </div>
-                    <div>
-                <hr>
-                <img src="img/churches.jpg" alt="Churches">
-                <p>Фуршети</p>
-                <br>
-                    </div>
-                    <div>
-                <hr>
-                <img src="img/feast.jpg" alt="Feast">
-                <p>Бенкети</p>
-                <br>
-                    </div>
-                    <div>
-                <hr>
-                <img src="img/wedding.jpg" alt="Wedding">
-                <p>Весілля</p>
-                    </div>
-                    </div>
-            </section>
-        </main>
-        <header>
-            <h2>Чому саме ми?</h2>
-        </header>
-        <div class="about-us-view">
-        <p>Ми працюємо на ринку Львова уже понад 10 років. У нашому штаті тільки висококваліфіковані офіціанти, бармени, кухарі, менеджери,
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>YK</title>
+      <link rel="stylesheet" href="css/index.css">
+   </head>
+   <body>
+      <header>
+         <nav>
+            <ul class="menu">
+               <li>
+                  <a href="#home">Home</a>
+               </li>
+               <li>
+                  <a href="#offers">Offers</a>
+               </li>
+               <li>
+                  <a href="#portfolio">Portfolio</a>
+               </li>
+               <li>
+                  <a href="#menu">Make a Menu</a>
+               </li>
+               <li>
+                  <a href="#contact">Contact</a>
+               </li>
+            </ul>
+         </nav>
+         <section id="home">
+            <div class="banner">
+               <h1>Catering Company YK</h1>
+               <h2>Eat Good, Feel Good</h2>
+               <button id="myBtn">Замовити консультацію</button>
+               <div id="myModal" class="modal">
+                <div class="modal-content">
+                <span class="close">&times;</span>
+    
+                     <p>Залиште свій номер телефону та/або E-mail і ми надамо вам консультацію</p>
+                     <label>
+                     Ваше ім'я
+                     <input type="text" placeholder="Your name" name="name">
+                     </label>
+                     <br>
+                     <label>
+                     Ваш номер телефону
+                     <input type="text" placeholder="number" name="Your phone number">
+                     </label>
+                     <label>
+                     Email
+                     <input type="text" placeholder="Email" id="email" name="Email">
+                     </label>
+                  </div>
+               </div>
+            </div>
+            <div class="text">
+               <p>Наша кейтерингова компанія займається наданням послуг з організації харчування
+                  співробітників компаніїі приватних осіб у приміщенні і на виїздному обслуговуванні,
+                  а також здійснюємо обслуговування заходів різного призначення та роздрібний продаж
+                  готової кулінарної продукції.
+               </p>
+            </div>
+         </section>
+      </header>
+      <main>
+         <section id="offers">
+            <header>
+               <h1>Наші Пропозиції</h1>
+            </header>
+            <div class="grid-view">
+               <div>
+                  <hr>
+                  <img src="img/corporate_parties.jpg" alt="Corporate Parties">
+                  <p>Корпоративні вечірки</p>
+                  <br>
+               </div>
+               <div>
+                  <hr>
+                  <img src="img/churches.jpg" alt="Churches">
+                  <p>Фуршети</p>
+                  <br>
+               </div>
+               <div>
+                  <hr>
+                  <img src="img/feast.jpg" alt="Feast">
+                  <p>Бенкети</p>
+                  <br>
+               </div>
+               <div>
+                  <hr>
+                  <img src="img/wedding.jpg" alt="Wedding">
+                  <p>Весілля</p>
+               </div>
+            </div>
+         </section>
+      </main>
+      <header>
+         <h2>Чому саме ми?</h2>
+      </header>
+      <div class="about-us-view">
+         <p>Ми працюємо на ринку Львова уже понад 10 років. У нашому штаті тільки висококваліфіковані офіціанти, бармени, кухарі, менеджери,
             що дозволяє тримати якість страв та обслуговування на найвищому рівні. Наша компанія надає чималий перелік тематичних сервірувань,
             що дозволяє нам легко вписатися в концепцію будь якого заходу. Купуючи нашу послугу клієнт має бути впевнений у компетентності
             підрядника, тому ми проводимо дегустацію вибраного меню.Отже, якщо ви плануєте корпоратив, банкет, фуршет, будь-який діловий захід,
             весілля або іншу важливу подію, відтепер вам буде достатньо просто звернутися до нашої компанії. Ми організуємо виїзне обслуговування
             у будь-якому місці Львова чи околиць у зручний для вас час.Виїзне обслуговування включає в себе не тільки доставку готових страв,
             але й сервірування та оформлення столу. Хочемо підкреслити, що декор наших столів ми робимо безкоштовно і обіцяємо справити на ваших
-            гостей незабутні враження!</p>
-        </div>
-        <section id="portfolio">
-            <header>
+            гостей незабутні враження!
+         </p>
+      </div>
+      <section id="portfolio">
+         <header>
             <h2>Наше Портфоліо</h2>
-            </header>
-            <div class="portfolio-view">
+         </header>
+         <div class="portfolio-view">
             <div>
-            <img src="img/corporate_parties_portfolio.jpg" alt="Corporate Parties">
-            <p>
-                <strong>
-                    Формат: Корпоративна Вечірка</strong>
-            </p>
-            <p>
-                <strong>
-                    Локація: Львівярня</strong>
-            </p>
-            <p>
-                <strong>
-                    Кількість гостей: 40</strong>
-            </p>
-            </div>
-
-            <div>
-            <img src="img/feast.jpg" alt="Feast">
-            <p>
-                <strong>Формат: Бенкет</strong>
-            </p>
-            <p>
-                <strong>Локація: Ресторан "Шпихлір"</strong>
-            </p>
-            <p>
-                <strong>Кількість гостей: 70</strong>
-            </p>
-            </div>
-
-            <div>
-            <img src="img/corporate_parties_portfoli.jpg" alt="Corporate Parties">
-            <p>
-                <strong>Формат: Тематичний стіл</strong>
-            </p>
-            <p>
-                <strong>Локація: Ресторація Леонардо</strong>
-            </p>
-            <p>
-                <strong>Кількість гостей: 30</strong>
-            </p>
+               <img src="img/corporate_parties_portfolio.jpg" alt="Corporate Parties">
+               <p>
+                  <strong>
+                  Формат: Корпоративна Вечірка</strong>
+               </p>
+               <p>
+                  <strong>
+                  Локація: Львівярня</strong>
+               </p>
+               <p>
+                  <strong>
+                  Кількість гостей: 40</strong>
+               </p>
             </div>
             <div>
-            <img src="img/wedding_in_the_forest_portfolio.jpg" alt="Wedding in the forest">
-            <p>
-                <strong>Формат: Весілля</strong>
-            </p>
-            <p>
-                <strong>Локація: місто Львів</strong>
-            </p>
-            <p>
-                <strong>Кількість гостей: 150</strong>
-            </p>
+               <img src="img/feast.jpg" alt="Feast">
+               <p>
+                  <strong>Формат: Бенкет</strong>
+               </p>
+               <p>
+                  <strong>Локація: Ресторан "Шпихлір"</strong>
+               </p>
+               <p>
+                  <strong>Кількість гостей: 70</strong>
+               </p>
             </div>
-
             <div>
-            <img src="img/churches_portfolio.jpg" alt="Churches">
-            <p>
-                <strong>Формат: Фуршет</strong>
-            </p>
-            <p>
-                <strong>Локація: Ресторан Black and Blue</strong>
-            <p>
-            <p>
-                <strong>Кількість гостей: 25</strong>
-            </p>
+               <img src="img/corporate_parties_portfoli.jpg" alt="Corporate Parties">
+               <p>
+                  <strong>Формат: Тематичний стіл</strong>
+               </p>
+               <p>
+                  <strong>Локація: Ресторація Леонардо</strong>
+               </p>
+               <p>
+                  <strong>Кількість гостей: 30</strong>
+               </p>
             </div>
-
             <div>
-            <img src="img/wedding_portfolio.jpg" alt="Wedding">
-            <p>
-                <strong>Формат: Весілля</strong>
-            </p>
-            <p>
-                <strong>Локація: Ресторан Veranda</strong>
-            </p>
-            <p>
-                <strong>Кількість гостей: 100</strong>
-            </p>
+               <img src="img/wedding_in_the_forest_portfolio.jpg" alt="Wedding in the forest">
+               <p>
+                  <strong>Формат: Весілля</strong>
+               </p>
+               <p>
+                  <strong>Локація: місто Львів</strong>
+               </p>
+               <p>
+                  <strong>Кількість гостей: 150</strong>
+               </p>
             </div>
+            <div>
+               <img src="img/churches_portfolio.jpg" alt="Churches">
+               <p>
+                  <strong>Формат: Фуршет</strong>
+               </p>
+               <p>
+                  <strong>Локація: Ресторан Black and Blue</strong>
+               <p>
+               <p>
+                  <strong>Кількість гостей: 25</strong>
+               </p>
             </div>
-            </section>
-            <section id="menu">
-                <header>
-                    <h1>Скласти Меню</h1>
-                </header>
-                <div class="menu-view">
-                <form method="POST" action="https://formspree.io/yuriikhomych94@gmail.com">
-                <br>
-                <label>
-                    Ваше ім'я
-         <input type="text" placeholder="Your name" name="name">
-                </label>
-                <br>
-                <br>
-                <label>
-                    Ваш номер телефону
-         <input type="text" placeholder="number" name="Your phone number">
-                </label>
-                <br>
-                <br>
-                <label>
-                    Тип події
-                    <br>
-                    <select class="myClass">
-                        <option>Весілля</option>
-                        <option>Корпоративні вечірки</option>
-                        <option>Бенкети</option>
-                        <option>Фуршети</option>
-                    </select>
-                </label>
-                <br>
-                <br>
-                <label>
-                    Кількість персон
-         <input type="text" placeholder="Number of person" name="Number of person">
-                </label>
-                <br>
-                <br>
-                <label>
-                    Дата проведення
-         <input type="date" name="date" min="2019-10-10" max="2020-08-31">
-                </label>
-                <br>
-                <br>
-                <label>
-                    Email
-         <input type="text" placeholder="Email" id="email" name="Email">
-                </label>
-                <br>
-                <input type="submit">
-                </form>
-                </div>
-            </section>
-            <section id="contact">
-                <header>
-                    <h2>Наші контакти</h2>
-                </header>
-                <div class="contact-view">
-                <p>380961966986</p>
-                <a class="contact-view" href="https://www.facebook.com/">facebook.com.yuriikhomych</a>
-                <br>
-                <a href="https://www.instagram.com/">instagram.com.yurii.khomych</a>
-                <br>
-                <a href="https://mail.google.com/mail/">yuriikhomych94@gmail.com</a>
+            <div>
+               <img src="img/wedding_portfolio.jpg" alt="Wedding">
+               <p>
+                  <strong>Формат: Весілля</strong>
+               </p>
+               <p>
+                  <strong>Локація: Ресторан Veranda</strong>
+               </p>
+               <p>
+                  <strong>Кількість гостей: 100</strong>
+               </p>
             </div>
+         </div>
+      </section>
+      <section id="menu">
+         <header>
+            <h1>Скласти Меню</h1>
+         </header>
+         <div class="menu-view">
+            <form method="POST" action="https://formspree.io/yuriikhomych94@gmail.com">
+               <br>
+               <label>
+               Ваше ім'я
+               <input type="text" placeholder="Your name" name="name">
+               </label>
+               <br>
+               <br>
+               <label>
+               Ваш номер телефону
+               <input type="text" placeholder="number" name="Your phone number">
+               </label>
+               <br>
+               <br>
+               <label>
+                  Тип події
+                  <br>
+                  <select class="myClass">
+                     <option>Весілля</option>
+                     <option>Корпоративні вечірки</option>
+                     <option>Бенкети</option>
+                     <option>Фуршети</option>
+                  </select>
+               </label>
+               <br>
+               <br>
+               <label>
+               Кількість персон
+               <input type="text" placeholder="Number of person" name="Number of person">
+               </label>
+               <br>
+               <br>
+               <label>
+               Дата проведення
+               <input type="date" name="date" min="2019-10-10" max="2020-08-31">
+               </label>
+               <br>
+               <br>
+               <label>
+               Email
+               <input type="text" placeholder="Email" id="email" name="Email">
+               </label>
+               <br>
+               <input type="submit">
+            </form>
+         </div>
+      </section>
+      <section id="contact">
+         <header>
+            <h2>Наші контакти</h2>
+         </header>
+        <div class="contact-view">
+            <p>380961966986</p>
+            <a class="contact-view" href="https://www.facebook.com/">facebook.com.yuriikhomych</a>
+            <br>
+            <a href="https://www.instagram.com/">instagram.com.yurii.khomych</a>
+            <br>
+            <a href="https://mail.google.com/mail/">yuriikhomych94@gmail.com</a>
+        </div>
+        <script src="js/index.js"></script>
         </section>
     </body>
 </html>
