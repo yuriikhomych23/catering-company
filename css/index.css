@@ -105,16 +105,18 @@ header .text {
 }
 
 .modal-content {
+  position: relative;
   font-family: 'Caveat', cursive;
   background-color: lightgrey;
-  margin: auto;
+  margin: 25vh auto;
   padding: 40px;
   border: 2px solid #888;
   width: 30%;
   border-radius: 8px;
   display: flex;
-  animation-name: slideIn;
+  animation-name: animatetop;
   animation-duration: 0.4s
+}
 }
 
 label {
@@ -143,6 +145,11 @@ label {
 @keyframes slideIn {
   from {bottom: -300px; opacity: 0}
   to {bottom: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
 }
 
 @media all and (max-width:30em) {
