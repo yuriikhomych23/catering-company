@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat|Dancing+Script|Indie+Flower|Lobster|Mansalva|Pattaya&display=swap');
+
 :root{
-    --accent-color:#ff6a00;
+    --accent-color:#0709a3;
     --main-color: grey;
-    --text-color: #fcc200;
+    --text-color: black;
     scroll-behavior: smooth;
 }
 
@@ -38,7 +39,8 @@ header nav .menu {
 }
 
 header .banner {
-    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Indie Flower', cursive;
     font-size: 2rem;
     color: var(--accent-color);
     background-image: url(../img/catering_company_YK.jpg);
@@ -205,7 +207,7 @@ div.portfolio-view img {
 }
 
 div.portfolio-view img:hover {
-    -webkit-transform:scale(1.5);
+    -webkit-transform:scale(1.8);
 
 }
 
