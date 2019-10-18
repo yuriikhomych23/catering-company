@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat|Dancing+Script|Indie+Flower|Lobster|Mansalva|Pattaya&display=swap');
 
 :root{
-    --accent-color:#0709a3;
+    --accent-color: #fccb38;
     --main-color: grey;
     --text-color: black;
     scroll-behavior: smooth;
@@ -39,8 +39,8 @@ header nav .menu {
 }
 
 header .banner {
-    /* font-family: 'Dancing Script', cursive; */
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Indie Flower', cursive; */
     font-size: 2rem;
     color: var(--accent-color);
     background-image: url(../img/catering_company_YK.jpg);
