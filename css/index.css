@@ -246,3 +246,11 @@ div.contact-view {
     color: var(--accent-color);
     text-align: start;
 }
+.icon {
+    width: 40px;
+    margin-top: 75px;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
