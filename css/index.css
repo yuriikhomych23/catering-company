@@ -258,20 +258,13 @@ div.contact-view {
     font-size: 130px;
     z-index: 1;
 }
-.clock {
-    position: relative;
-    color: Deepskyblue;
-    top: 0px;
-    left: 60px;
-    font-size: 110px;
-    z-index: 1;
-}
+
 countdown {
     display: grid;
     grid-auto-columns: inherit;
     margin-bottom: 10px;
 }
-.coutdown-new-year {
+.coutdown-halloween {
     color: var(--main-color);
     font-weight: 50;
     font-size: 1.2rem;
@@ -312,7 +305,7 @@ countdown {
     }
 }
 
-.discount h5 {
+.discount h4 {
     display:flex;
     justify-content: center;
     color: grey;
