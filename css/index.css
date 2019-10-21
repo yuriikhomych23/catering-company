@@ -249,3 +249,72 @@ div.contact-view {
 .btn btn-primary {
     display: flex;
 }
+
+.clock_shade {
+    position: relative;
+    color: gainsboro;
+    top: 3px;
+    left: 63px;
+    font-size: 130px;
+    z-index: 1;
+}
+.clock {
+    position: relative;
+    color: Deepskyblue;
+    top: 0px;
+    left: 60px;
+    font-size: 110px;
+    z-index: 1;
+}
+countdown {
+    display: grid;
+    grid-auto-columns: inherit;
+    margin-bottom: 10px;
+}
+.coutdown-new-year {
+    color: var(--main-color);
+    font-weight: 50;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+.countdown {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 50;
+    text-align: center;
+    font-size: 1rem;
+}
+.countdown-number {
+    padding: 5px;
+    border-radius: 1.2px;
+    display: inline-block;
+}
+
+.countdown-time {
+    padding: 15px;
+    border-radius: 2px;
+    background: var(--main-color);
+    display: inline-block;
+}
+.countdown-text {
+    display: block;
+    padding-top: 5px;
+    font-size: 1.2rem;
+}
+@media (min-width: 200px) {
+    #countdown {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 5px;
+    }
+}
+
+.discount h5 {
+    display:flex;
+    justify-content: center;
+    color: grey;
+    font-family: 'Mansalva', cursive;
+}
