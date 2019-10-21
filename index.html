@@ -48,7 +48,7 @@
                            <form>
                               <div class="form-group">
                                  <label for="username">Ваше Ім'я</label>
-                                 <input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="username">
+                                 <input type="text" class="form-control" id="username" placeholder="username">
                               </div>
                               <div class="form-group">
                                  <label for="userEmail">E-mail</label>
@@ -144,7 +144,7 @@
                   <h5 class="card-title">Корпоративна вечірка</h5>
                   <p class="card-text">Локація: Львівярня</p>
                   <p>Кількість гостей: 40</p>
-                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalOrder">Замовити</a>
+                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalOrderCorporate">Замовити</a>
                </div>
             </div>
             <div class="card col-12">
@@ -153,7 +153,7 @@
                   <h5 class="card-title">Бенкет</h5>
                   <p class="card-text">Локація: "Шпихлір"</p>
                   <p>Кількість гостей: 70</p>
-                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalOrder">Замовити</a>
+                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalOrderFeast">Замовити</a>
                </div>
             </div>
             <div class="card col-12">
@@ -162,7 +162,7 @@
                   <h5 class="card-title">Фуршет</h5>
                   <p class="card-text">Локація: Ресторан Black and Blue</p>
                   <p>Кількість гостей: 25</p>
-                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalOrder">Замовити</a>
+                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalOrderChurches">Замовити</a>
                </div>
             </div>
             <div class="card col-12">
@@ -171,7 +171,7 @@
                   <h5 class="card-title">Тематичний стіл</h5>
                   <p class="card-text">Локація: Ресторан Леонардо</p>
                   <p>Кількість гостей: 35</p>
-                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalOrder">Замовити</a>
+                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalOrderParty">Замовити</a>
                </div>
             </div>
             <div class="card col-12">
@@ -189,7 +189,34 @@
                   <h5 class="card-title">Весілля</h5>
                   <p class="card-text">Локація: Ресторан Veranda</p>
                   <p>Кількість гостей: 100</p>
-                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalOrder">Замовити</a>
+                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalOrderWedding">Замовити</a>
+               </div>
+            </div>
+            <div class="card col-12">
+               <img src="img/birthday_portfolio.jpg" class="card-img-top" alt="Birthday">
+               <div class="card-body">
+                  <h5 class="card-title">День Народження</h5>
+                  <p class="card-text">Локація: Ресторан Q3 </p>
+                  <p>Кількість гостей: 100</p>
+                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalOrderBirthday">Замовити</a>
+               </div>
+            </div>
+            <div class="card col-12">
+               <img src="img/authors_desk.jpg" class="card-img-top" alt="Authors Desk">
+               <div class="card-body">
+                  <h5 class="card-title">Авторський стіл</h5>
+                  <p class="card-text">Локація: Ресторан Fotel </p>
+                  <p>Кількість гостей: 30</p>
+                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalOrderAuthorsDesk">Замовити</a>
+               </div>
+            </div>
+            <div class="card col-12">
+               <img src="img/bbq_portfolio.jpg" class="card-img-top" alt="BBQ">
+               <div class="card-body">
+                  <h5 class="card-title">Барбекю вечірки</h5>
+                  <p class="card-text">Локація: Ресторан Пастель </p>
+                  <p>Кількість гостей: 20</p>
+                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalOrderBBQ">Замовити</a>
                </div>
             </div>
          </div>
@@ -239,54 +266,48 @@
             <button type="submit" class="btn btn-primary">Замовити</button>
          </form>
       </section>
-      <footer>
-         <section id="contact">
-            <header>
-               <h2>Наші контакти</h2>
-            </header>
-            <div class="contact-view">
-               <a href="#">+38 (096) 19 66 986</a>
-               <br>
-               <i class="fab fa-facebook"></i>
-               <!-- <img src="img/facebook.jpg" alt="Facebook" id="icon"> -->
-               <a class="contact-view" href="https://www.facebook.com/">facebook.com.yuriikhomych
-               </a>
-               <br>
-               <img src="img/instagram.jpg" alt="Instagram" id="icon">
-               <a href="https://www.instagram.com/">instagram.com.yurii.khomych</a>
-               <br>
-               <a href="https://mail.google.com/mail/">yuriikhomych94@gmail.com</a>
-            </div>
-         </section>
-      </footer>
-      <div class="modal fade" id="modalOrder" tabindex="-1" role="dialog" aria-labelledby="modalOrderTitle" aria-hidden="true">
+      <!-- <footer> -->
+      <section id="contact">
+         <header>
+            <h2>Наші контакти</h2>
+         </header>
+         <a class="contact-view" href="#contact" data-toggle="modal"></a>
+         <a href="#">+38 (096) 19 66 986</a>
+         <br>
+         <a class="contact-view" href="https://www.facebook.com/">facebook.com.yuriikhomych</a>
+         <br>
+         <a href="https://www.instagram.com/">instagram.com.yurii.khomych</a>
+         <br>
+         <a href="https://mail.google.com/mail/">yuriikhomych94@gmail.com</a>
+      </section>
+      <!-- </footer> -->
+      <div class="modal fade" id="modalOrderBirthday" tabindex="-1" role="dialog" aria-labelledby="modalOrderTitleBirthday" aria-hidden="true">
          <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                <div class="modal-header">
-                  <h5 class="modal-title" id="modalOrderTitle">Portfolio</h5>
+                  <h5 class="modal-title" id="modalOrderTitleBirthday">Portfolio</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                   </button>
                </div>
                <div class="modal-body">
-                  <img src="img/wedding_in_the_forest_portfolio.jpg" class="card-img-top" alt="Wedding in the forest">
+                  <img src="img/birthday_portfolio.jpg" class="card-img-top" alt="Birthday">
                   <div class="card-body">
-                     <h5 class="card-title">Весілля</h5>
-                     <p class="card-text">Локація: м. Львів</p>
-                     <p>Кількість гостей: 150</p>
+                     <h5 class="card-title">День Народження</h5>
+                     <p class="card-text">Локація: Ресторан Q3</p>
+                     <p>Кількість гостей: 20</p>
                      <form method="POST" action="https://formspree.io/yuriikhomych94@gmail.com">
-                        <div class="form-group">
-                           <label for="username">Ваше Ім'я</label>
-                           <input type="text" class="form-control" id="username"  placeholder="">
-                        </div>
-                        <div class="form-group">
-                           <label for="userEmail">E-mail</label>
-                           <input type="password" class="form-control" id="userEmail" placeholder="">
-                        </div>
-                        <button type="submit" class="btn btn-primary">Надіслати</button>
-                        </a>
-                </div>
-                </div>
+                     <div class="form-group">
+                        <label for="userName">Ваше Ім'я</label>
+                        <input type="text" class="form-control" id="userName"  placeholder="">
+                     </div>
+                     <div class="form-group">
+                        <label for="userEmail">E-mail</label>
+                        <input type="password" class="form-control" id="userE-mail" placeholder="">
+                     </div>
+                     <button type="submit" class="btn btn-primary">Надіслати</button>
+                  </div>
+               </div>
             </div>
          </div>
       </div>
@@ -306,26 +327,233 @@
                      <p class="card-text">Локація: Ресторан "Шпихлір"</p>
                      <p>Кількість гостей: 70</p>
                      <form method="POST" action="https://formspree.io/yuriikhomych94@gmail.com">
-                        <div class="form-group">
-                           <label for="username">Ваше Ім'я</label>
-                           <input type="text" class="form-control" id="username"  placeholder="">
-                        </div>
-                        <div class="form-group">
-                           <label for="userEmail">E-mail</label>
-                           <input type="password" class="form-control" id="userEmail" placeholder="">
-                        </div>
-                        <button type="submit" class="btn btn-primary">Надіслати</button>
-                        </a>
-                </div>
-                </div>
+                     <div class="form-group">
+                        <label for="username">Ваше Ім'я</label>
+                        <input type="text" class="form-control" placeholder="">
+                     </div>
+                     <div class="form-group">
+                        <label for="userEmail">E-mail</label>
+                        <input type="password" class="form-control" placeholder="">
+                     </div>
+                     <button type="submit" class="btn btn-primary">Надіслати</button>
+                  </div>
+               </div>
             </div>
          </div>
       </div>
-
+      <div class="modal fade" id="modalOrderChurches" tabindex="-1" role="dialog" aria-labelledby="modalOrderTitleChurches" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="modalOrderTitleChurches">Portfolio</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <img src="img/churches.jpg" class="card-img-top" alt="Churchest">
+                  <div class="card-body">
+                     <h5 class="card-title">Фуршет</h5>
+                     <p class="card-text">Локація: Ресторан Black and Blue</p>
+                     <p>Кількість гостей: 25</p>
+                     <form method="POST" action="https://formspree.io/yuriikhomych94@gmail.com">
+                     <div class="form-group">
+                        <label for="username">Ваше Ім'я</label>
+                        <input type="text" class="form-control" placeholder="">
+                     </div>
+                     <div class="form-group">
+                        <label for="userEmail">E-mail</label>
+                        <input type="password" class="form-control" placeholder="">
+                     </div>
+                     <button type="submit" class="btn btn-primary">Надіслати</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade" id="modalOrder" tabindex="-1" role="dialog" aria-labelledby="modalOrderTitle" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="modalOrderTitle">Portfolio</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <img src="img/wedding_in_the_forest_portfolio.jpg" class="card-img-top" alt="Wedding in the forest">
+                  <div class="card-body">
+                     <h5 class="card-title">Весілля</h5>
+                     <p class="card-text">Локація: м. Львів</p>
+                     <p>Кількість гостей: 150</p>
+                     <form method="POST" action="https://formspree.io/yuriikhomych94@gmail.com">
+                     <div class="form-group">
+                        <label for="username">Ваше Ім'я</label>
+                        <input type="text" class="form-control" placeholder="">
+                     </div>
+                     <div class="form-group">
+                        <label for="userEmail">E-mail</label>
+                        <input type="password" class="form-control" placeholder="">
+                     </div>
+                     <button type="submit" class="btn btn-primary">Надіслати</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade" id="modalOrderCorporate" tabindex="-1" role="dialog" aria-labelledby="modalOrderTitleCorporate" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="modalOrderTitleCorporate">Portfolio</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <img src="img/corporate_parties_portfolio.jpg" class="card-img-top" alt="corporate parties portfolio">
+                  <div class="card-body">
+                     <h5 class="card-title">Корпоративна вечірка</h5>
+                     <p class="card-text">Локація: Львівярня</p>
+                     <p>Кількість гостей: 40</p>
+                     <form method="POST" action="https://formspree.io/yuriikhomych94@gmail.com">
+                     <div class="form-group">
+                        <label for="username">Ваше Ім'я</label>
+                        <input type="text" class="form-control" placeholder="">
+                     </div>
+                     <div class="form-group">
+                        <label for="userEmail">E-mail</label>
+                        <input type="password" class="form-control" placeholder="">
+                     </div>
+                     <button type="submit" class="btn btn-primary">Надіслати</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade" id="modalOrderWedding" tabindex="-1" role="dialog" aria-labelledby="modalOrderTitleWedding" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="modalOrderTitleWedding">Portfolio</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <img src="img/wedding_portfolio.jpg" class="card-img-top" alt="Wedding Portfolio">
+                  <div class="card-body">
+                     <h5 class="card-title">Весілля</h5>
+                     <p class="card-text">Локація: Ресторан Veranda</p>
+                     <p>Кількість гостей: 100</p>
+                     <form method="POST" action="https://formspree.io/yuriikhomych94@gmail.com">
+                     <div class="form-group">
+                        <label for="username">Ваше Ім'я</label>
+                        <input type="text" class="form-control" placeholder="">
+                     </div>
+                     <div class="form-group">
+                        <label for="userEmail">E-mail</label>
+                        <input type="password" class="form-control" placeholder="">
+                     </div>
+                     <button type="submit" class="btn btn-primary">Надіслати</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade" id="modalOrderParty" tabindex="-1" role="dialog" aria-labelledby="modalOrderTitleParty" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="modalOrderTitleParty">Portfolio</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <img src="img/corporate_parties_portfoli.jpg" class="card-img-top" alt="Coprorate parties portfoli">
+                  <div class="card-body">
+                     <h5 class="card-title">Тематичний стіл</h5>
+                     <p class="card-text">Локація: Ресторан Leonardo</p>
+                     <p>Кількість гостей: 35</p>
+                     <form method="POST" action="https://formspree.io/yuriikhomych94@gmail.com">
+                     <div class="form-group">
+                        <label for="username">Ваше Ім'я</label>
+                        <input type="text" class="form-control" placeholder="">
+                     </div>
+                     <div class="form-group">
+                        <label for="userEmail">E-mail</label>
+                        <input type="password" class="form-control" placeholder="">
+                     </div>
+                     <button type="submit" class="btn btn-primary">Надіслати</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade" id="modalOrderBBQ" tabindex="-1" role="dialog" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="modalOrderTitleBBQ">Portfolio</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <img src="img/bbq_portfolio.jpg" class="card-img-top" alt="BBQ">
+                  <div class="card-body">
+                     <h5 class="card-title">BBQ</h5>
+                     <p class="card-text">Локація: Ресторан "Пастель"</p>
+                     <p>Кількість гостей: 20</p>
+                     <form method="POST" action="https://formspree.io/yuriikhomych94@gmail.com">
+                     <div class="form-group">
+                        <label for="username">Ваше Ім'я</label>
+                        <input type="text" class="form-control" placeholder="">
+                     </div>
+                     <div class="form-group">
+                        <label for="userEmail">E-mail</label>
+                        <input type="password" class="form-control" placeholder="">
+                     </div>
+                     <button type="submit" class="btn btn-primary">Надіслати</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade" id="modalOrderAuthorsDesk" tabindex="-1" role="dialog" aria-labelledby="modalOrderTitleAuthorsDesk" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="modalOrderTitleAuthorsDesk">Portfolio</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <img src="img/authors_desk.jpg" class="card-img-top" alt="Authoras Desk">
+                  <div class="card-body">
+                     <h5 class="card-title">Авторський стіл</h5>
+                     <p class="card-text">Локація: Ресторан "Fotel"</p>
+                     <p>Кількість гостей: 30</p>
+                     <form method="POST" action="https://formspree.io/yuriikhomych94@gmail.com">
+                     <div class="form-group">
+                        <label for="username">Ваше Ім'я</label>
+                        <input type="text" class="form-control" placeholder="">
+                     </div>
+                     <div class="form-group">
+                        <label for="userEmail">E-mail</label>
+                        <input type="password" class="form-control" placeholder="">
+                     </div>
+                     <button type="submit" class="btn btn-primary">Надіслати</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
       <script src="js/index.js"></script>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
    </body>
 </html>
-
